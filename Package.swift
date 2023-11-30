@@ -19,7 +19,7 @@ let package = Package(
         ),
         .package(
             url: "https://github.com/naxila/CodeEditLanguages-BeduinV2.git",
-            exact: "0.1.17-alpha"
+            exact: "0.1.17-alpha2"
         ),
         .package(
             url: "https://github.com/lukepistrol/SwiftLintPlugin",

@@ -5,8 +5,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/naxila/CodeEditLanguages-BeduinV2.git",
       "state" : {
-        "revision" : "0f84fbdf890d70487455b1ac0acef94fba916c08",
-        "version" : "0.1.17-alpha"
+        "revision" : "22bab3237754387970a46430ac0756bfb80e3ee9",
+        "version" : "0.1.17-alpha2"
       }
     },
     {
