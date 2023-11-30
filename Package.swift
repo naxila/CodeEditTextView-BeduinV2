@@ -18,7 +18,7 @@ let package = Package(
             exact: "0.8.7"
         ),
         .package(
-            url: "https://github.com/CodeEditApp/CodeEditLanguages.git",
+            url: "https://github.com/naxila/CodeEditLanguages-BeduinV2.git",
             exact: "0.1.17"
         ),
         .package(
@@ -35,7 +35,7 @@ let package = Package(
             name: "CodeEditTextView",
             dependencies: [
                 "STTextView",
-                "CodeEditLanguages",
+                .product(name: "CodeEditLanguages", package: "CodeEditLanguages-BeduinV2"),
                 "TextFormation",
                 .product(name: "STTextKitPlus", package: "STTextView")
             ],
@@ -48,7 +48,7 @@ let package = Package(
             name: "CodeEditTextViewTests",
             dependencies: [
                 "CodeEditTextView",
-                "CodeEditLanguages",
+                .product(name: "CodeEditLanguages", package: "CodeEditLanguages-BeduinV2"),
             ]
         ),
     ]

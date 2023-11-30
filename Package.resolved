@@ -1,12 +1,12 @@
 {
   "pins" : [
     {
-      "identity" : "codeeditlanguages",
+      "identity" : "codeeditlanguages-beduinv2",
       "kind" : "remoteSourceControl",
-      "location" : "https://github.com/CodeEditApp/CodeEditLanguages.git",
+      "location" : "https://github.com/naxila/CodeEditLanguages-BeduinV2.git",
       "state" : {
-        "revision" : "aa7d922b2aa783ae6f2a1a2cb7010ae62b700e17",
-        "version" : "0.1.16"
+        "revision" : "d98ee5bea84859610297d6db5dd4d7fbaaccc80d",
+        "version" : "0.1.17"
       }
     },
     {
@@ -23,8 +23,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/krzyzanowskim/STTextView.git",
       "state" : {
-        "branch" : "897c5ff",
-        "revision" : "897c5ffe3c6b35664ab085d43238b3a95e79440d"
+        "revision" : "1046965bd62dc05cf17beb4b4e901cdae851395e",
+        "version" : "0.8.7"
       }
     },
     {
